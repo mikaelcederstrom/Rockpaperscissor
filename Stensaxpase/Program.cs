@@ -27,6 +27,7 @@ namespace Stensaxpase
         {
             Random rnd = new Random();
             int player1Move = Convert.ToInt32(Console.ReadLine());
+            Console.Clear();
 
             while (scorePlayer1 < 5 && scorePlayer2 < 5)
             {
@@ -65,6 +66,7 @@ namespace Stensaxpase
                 {
                     Console.WriteLine("Välj ett nummer på nytt");
                     player1Move = Convert.ToInt32(Console.ReadLine());
+                    Console.Clear();
                 }
 
             }
@@ -111,6 +113,7 @@ namespace Stensaxpase
                 Console.WriteLine();
                 scorePlayer1 = 0;
                 scorePlayer2 = 0;
+                Console.Clear();
                 Main(null);
             }
 
